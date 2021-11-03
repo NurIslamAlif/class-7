@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif
+}
+
+.hero-banner{
+	background-image: url(../images/Banner-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.testimonial-section{
+	background-image: url(../images/Lucid2b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.carousel-caption{
+	position: static !important;
+
+}
+
+.hading{}
+.hading span{
+    color: #056efd;
+    font-size: 14px;}
+.hading h2{
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.line{
+    position: relative;
+}
+.line::after{
+	content: "";
+	position: absolute;
+	left: 35px;
+	bottom: 0;
+	width: 30px;
+	height: 3px;
+	background: #056efd;
+	border-radius: 30px;
+}
+.line::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: 3px;
+	background: #056efd;
+	border-radius: 30px;
+}
+
+.text-center .line::after{
+left: 54%;
+transform: translate(-52.5px);
+}
+.text-center .line::before{
+	left: 51%;
+	transform: translate(-48.5px);
+}
+
+
+.navbar-dark .navbar-nav .nav-item{
+	padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    position: relative;    
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link::after{
+
+content: "";
+
+position: absolute;
+
+left: 0;
+
+bottom: 0;
+
+width: 100%;
+transition: all 0.4s linear;
+height: 3px;
+
+background: #056efd;
+
+border-radius: 30px;
+transform: scale(0);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after{
+transform: scale(1);
+}
+.navbar-dark .navbar-nav .nav-link::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 5px;
+    left: 50%;
+    background:#16151b;
+    bottom: 0;
+    z-index: 1;
+    transform: translate(-50%);
+}
+
+
+/*+++++++++++ Header pary steart  ++++++++*/
+.hero-banner-content{
+	width: 500px;
+}
+.hero-banner-img{  
+  padding-left: 90px;
+}
+
+.hero-banner-content h6{
+	    color: #008ed6;
+	    font-size: 14px;
+}
+.hero-banner-content h1{
+color: #fff;
+font-size: 48px;
+font-weight: 500;
+}
+.hero-banner-content p{
+color: #999999;
+font-size: 18px;
+}
+.btn-custom-d{
+
+    background: #0284c8;
+    color: #fff;
+}
+.btn-custom-d:hover{
+    background: #fff0;
+    color: #fff;
+    border: 1px solid #fff;}
+.btn-custom-r{
+
+    color: #fff;
+    border: 1px solid white;
+
+}
+.btn-custom-r:hover{
+	    color: #ffffff;
+    background: #0284c8;
+    border: 1px solid #ffffff00;
+}
+
+
+/*+++++++++++******* features-container  *******++++++++*/
+.features-container{    margin: 50px 0px;}
+.features-container .hading{
+
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+
+}
+.features-container .hading span{
+
+    color: #056efd;
+    font-size: 14px;
+}
+}
+.features-container .hading h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.features-container .icon{
+	    width: 40px;
+    margin: auto;
+   /* border-radius: 182px;
+    box-shadow: 0px 0px 0px 2px #9c27b0; */} 
+.features-container .icon img{}
+.features-container h3{
+	font-size: 24px;
+	    text-align: center;
+}
+.features-container p{
+	font-size: 18px;
+	color: #999999;
+	text-align: center;
+}
+
+/*+++++++++++******* Details-section  *******++++++++*/
+.details-section{
+	    margin: 50px 95px;
+}
+.details-img{
+	width: 100vh;
+}
+.details-img img{}
+.details-cont{
+	width: 100vh;
+}
+.details-cont .hading{}
+.details-cont .hading span{
+	font-size: 14px;
+	color: #008ed6;
+
+
+}
+.details-cont .hading h2{
+	font-size: 36px;
+	font-weight: 500;
+}
+.details-cont p{
+	font-size: 18px;
+	color: #999999;
+}
+.details-cont ul{}
+.details-cont li{    
+	margin-bottom: 10px;
+}
+.details-cont li img{    
+	height: 18px;}
+.details-cont li span{
+	margin-left: 10px;
+}
+.details-cont
+
+
+/*+++++++++++******* details2-section  *******++++++++*/
+.details2sec{
+	    margin: 50px 100px;
+}
+
+.details2-cont{
+	    padding: 100px;
+
+}
+.details2-cont p{
+	font-size: 18px;
+	color: #999999 ;
+}
+.details2-img{}
+.details2-img img{}
+
+
+/*+++++++++++******* Testimonial Section  *******++++++++*/
+
+.testimonial-section{}
+.testimonial-section .hading{
+	    text-align: center;
+	        padding: 50px 0;
+}
+ .testimonial-section .hading h2{ 
+ 	color: #fff;
+ }  
+
+.carousel-item P{
+    padding: 50px 0 4px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.carousel-item ul{
+	    height: 40px;
+	    margin-bottom: 40px;
+}
+.carousel-item li{}
+.carousel-item span{
+	font-size: 14px;
+}
+.carousel-item img{
+	    height: 40px;
+}
+.xbtn{
+	width: 3px !important;
+}
+
+
+
+/*+++++++++++******* Download  *******++++++++*/
+.download-section{
+	    background: black;
+	    padding: 50px;
+}
+.download-header{}
+.download-header h2{
+	font-size: 36px;
+	color: #fff;
+}
+.download-header strong{}
+
+/*+++++++++++******* Pricing and plans Steart *******++++++++*/
+
+.Pricing-and-plans{
+	    margin: 50px 0;
+}
+.Pricing-and-plans .hading{
+	    text-align: center;
+	    margin: 30px;
+}
+.Pricing-and-plans span{}
+.Pricing-and-plans h2{}
+.prise-plan{}
+.prise-plan ul{
+	    text-align: center;
+	        border: 1px solid #999999;
+}
+}
+.prise-plan li{}
+.prise-plan li h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 0;
+}
+.prise-plan p{
+	color: #999999;
+	    padding-top: 15px;
+}
+.prise-plan li .prise{
+	    font-size: 60px;
+    font-weight: 600;
+        padding: 15px;
+        line-height: 0.8;
+    border-bottom: 1px solid #999999;
+}
+.prise-plan li span{
+
+    font-size: 18px;
+    color: #999999;
+}
+.prise-plan li sup{
+	    font-size: 35px;
+}
+.prise-plan li .order-now{
+        margin-bottom: 20px;
+    border: 1px solid #999999;
+}
+.prise-plan li .order-now:hover{
+
+    background: #0284c8;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+
+
+.btn-custom-s{
+        margin-bottom: 20px;
+    background: #0284c8;
+    color: #fff;
+    border: 1px solid #0284c8;
+}
+.btn-custom-s:hover{
+	background: #000;
+    color: #fff;
+}
+.spesall-h3{
+	color: #0284c8;
+}
+.spesall-li{
+	background: #0284c8;
+	color: #fff;
+}
+
+.spesall-li span{
+	color: #fff !important;
+}
+/*+++++++++++******* Contact *******++++++++*/
+
+.contact-section{}
+.contact-section address{
+	text-align: center;
+	margin: 50px 0;
+}
+.contact-section address i{}
+.contact-section address p{
+	color: #999999;
+}
+
+
+.contact-section form{
+    background: #15141a;
+    /* margin: 53px; */
+    padding: 50px;}
+.contact-section input{
+	 background: #15141a;
+}
+.contact-section textarea{
+	 background: #15141a;
+}
+.submit-btn1 input{
+    background: #056efd;
+    float: right;
+    color: #fff;
+
+}
+.submit-btn1 input:hover{
+	    background: #999999;
+    color: #fff;
+}
+
+
+/*+++++++++++******* MAP *******++++++++*/
+.map{}
+.map iframe{}
+.ratio-21x9 {
+    --bs-aspect-ratio: 25%;
+}
+/*+++++++++++******* Footer *******++++++++*/
+footer{
+	    padding: 40px;
+    background: #000;
+}
+footer ul{}
+footer li{
+    margin: 0 20px;
+}
+footer i{}
+footer p{
+	text-align: center;
+	color: #999999;
+}
+
+
+
+
+
+/*+++++++++++******* Media *******++++++++*/
+
+@media (max-width: 992px) { 
+.hero-banner{
+	padding-bottom: 20px !important;
+}
+.hero-banner-img {
+    padding-left: 0;
+ }
+
+.hero-banner-content p {
+    font-size: 15px;
+}
+
+.hero-banner-content h1 {
+    font-size: 40px;}
+
+.details-cont p {
+    font-size: 16px;}
+.details2-cont {
+    padding: 50px;}
+
+.hading span {
+    font-size: 13px;}
+
+.hading h2 {
+    font-size: 35px;}
+
+.carousel-item P {
+    padding: 3px 0 4px;
+    font-size: 15px;}
+    
+
+.features-container p {
+    font-size: 15px;}    
+ 
+.features-container h3 {
+    font-size: 20px;}   
+
+
+
+
+
+}
+
+@media (max-width: 768px) { 
+
+.hero-banner-content {
+    width: 500px;  margin: 30px 0px; }
+
+.hero-banner-img {
+    max-width: 40%;
+    margin-left: 26%;}
+    .features-container .icon {
+    width: 33px;}
+.features-container h3 {
+    font-size: 18px;}
+.features-container p {
+    font-size: 14px;}
+.features-container .hading {
+    text-align: center;
+    margin: 42px 0px 18px 0px;}
+
+.details-section {
+    margin: 0px 65px;}
+
+.details-img img {
+    max-width: 75%;
+}
+
+.download-section {
+    padding: 10px;}
+.Pricing-and-plans .hading {
+    margin: 9px;}
+}
+
+.prise-plan li h3 {
+    font-size: 20px;}
+
+.prise-plan li .prise {
+    font-size: 50px;}
+.prise-plan li sup {
+    font-size: 30px;
+}
+
+.prise-plan p {
+    font-size: 14px;
+}
+
+.contact-section address p {
+       font-size: 14px;}
+.contact-section address {
+    margin: 30px 0;}
+.ratio-21x9 {
+    --bs-aspect-ratio: 50%;
+}
+
+
+}
+@media (min-width: 576px) {  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
